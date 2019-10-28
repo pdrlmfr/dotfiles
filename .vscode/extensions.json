@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "CoenraadS.bracket-pair-colorizer",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "dracula-theme.theme-dracula",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "Gruntfuggly.todo-tree",
+    "mhutchie.git-graph",
+    "ms-vscode.cpptools",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "ms-vsliveshare.vsliveshare",
+    "oderwat.indent-rainbow",
+    "onecentlin.laravel-blade",
+    "PKief.material-icon-theme",
+    "shinnn.stylelint",
+    "streetsidesoftware.code-spell-checker",
+    "Zignd.html-css-class-completion"
+  ]
+}
