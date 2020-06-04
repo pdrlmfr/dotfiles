@@ -27,6 +27,9 @@ defaults write -g KeyRepeat -int 1
 # Set a shorter Delay until key repeat
 defaults write -g InitialKeyRepeat -int 12
 
+# Set cursor speed
+defaults write NSGlobalDomain KeyRepeat -int 1
+
 ###############################################################################
 # Screensaver
 ###############################################################################
