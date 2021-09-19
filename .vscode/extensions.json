@@ -4,6 +4,7 @@
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "dracula-theme.theme-dracula",
+    "beardedbear.beardedtheme"
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
@@ -17,6 +18,7 @@
     "PKief.material-icon-theme",
     "shinnn.stylelint",
     "streetsidesoftware.code-spell-checker",
-    "Zignd.html-css-class-completion"
+    "Zignd.html-css-class-completion,
+
   ]
 }

@@ -1,48 +1,13 @@
 {
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 100,
-    "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true,
-    "emmet.triggerExpansionOnTab": true,
-    "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
-    "todo-tree.highlights.customHighlight": {
-        "FIXME": {
-            "icon": "alert",
-            "iconColour": "red",
-            "type": "text",
-            "foreground": "white",
-            "background": "red"
-        },
-        "SPRINT": {
-            "icon": "jersey",
-            "iconColour": "#0095ff",
-            "type": "text",
-            "foreground": "white",
-            "background": "#0095ff"
-        },
-        "TODO": {
-            "icon": "beaker",
-            "iconColour": "#f48024",
-            "type": "text",
-            "foreground": "white",
-            "background": "#f48024"
-        }
-    },
-    "todo-tree.general.tags": [
-        "TODO",
-        "FIXME",
-        "SPRINT"
-    ],
-    "workbench.colorTheme": "Dracula",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "[jsonc]": {
+    "workbench.colorTheme": "Bearded Theme Arc Blueberry",
+    "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
