@@ -2,7 +2,17 @@
 
 **Warning**: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
+## Content
 
+- macOS configs
+
+- VSCode configs
+
+- git configs
+
+- fish configs
+  
+  
 
 ## Tools
 
@@ -12,11 +22,15 @@
 
 - Mark Text - Markdown editor
 
+- Min - Minimalist Browser
 
+- Homebrew - Package manager
+
+- iStatsMenu - macOS system monitor
 
 ## Shell setup (macOS)
 
-- Fish Shell
+- Fish Shell `brew install fish`
 
 - Fisher - Plugin manager
 
@@ -24,15 +38,17 @@
 
 - Nerd fonts - Powerline-patched fonts. (Hack or Meslo)
 
-- Z for fish - Directory jumper
+- Z for fish - Directory jumper `fisher install jethrokuan/z`
 
-- Peco - Interactive filtering
+- Peco - Interactive filtering `brew install peco`
 
-- Exa - ls replacement
+- Exa - ls replacement `brew install exa`
 
+- Nvm Fish - Node Version Manager for fish `fisher install jorgebucaran/nvm.fish`
 
+- GHQ -  Git repository organizer `brew install ghq`
 
-## PowerShell setup (Windows) WIP
+## ~~PowerShell setup (Windows) WIP~~
 
 - Scoop - A command-line installer
 - Git for Windows
@@ -40,14 +56,10 @@
 - PSReadLine- Cmdlets for customizing the editing environment, used for autocompletion
 - z - Directory jumper
 
-
-
-
-
 ### To Do:
 
-- [x]  macOS setup
+- [x] macOS setup
 
-- [x] Windows setup
+- [ ] Windows setup
 
 - [ ] Auto Install script
