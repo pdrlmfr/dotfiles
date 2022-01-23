@@ -9,7 +9,7 @@ if type -q exa
 end
 
 
-#REACT NATIVE
+# REACT NATIVE
 set -Ux ANDROID_HOME /Users/pdr/Library/Android/Sdk
 set -gx PATH /Users/pdr/Library/Android/sdk/emulator $PATH
 set -gx PATH /Users/pdr/Library/Android/sdk/tools $PATH
