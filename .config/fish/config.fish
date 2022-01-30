@@ -15,3 +15,13 @@ set -gx PATH /Users/pdr/Library/Android/sdk/emulator $PATH
 set -gx PATH /Users/pdr/Library/Android/sdk/tools $PATH
 set -gx PATH /Users/pdr/Library/Android/sdk/tools/bin $PATH
 set -gx PATH /Users/pdr/Library/Android/sdk/platform-tools $PATH
+
+# NVM
+function __check_rvm --on-variable PWD --description 'Do nvm stuff'
+  status --is-command-substitution; and return
+
+  if test -f .nvmrc; and test -r .nvmrc;
+    nvm use
+  else
+  end
+end
