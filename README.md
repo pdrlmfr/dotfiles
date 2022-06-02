@@ -36,7 +36,7 @@
 
 - Tide - Shell theme `fisher install ilancosman/tide@v5`
 
-- Nerd fonts - Powerline-patched fonts. (Hack or Meslo)
+- Nerd fonts - Powerline-patched fonts. (Hack or Meslo) brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 - Z for fish - Directory jumper `fisher install jethrokuan/z`
 
