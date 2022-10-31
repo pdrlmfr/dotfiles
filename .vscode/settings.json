@@ -1,13 +1,86 @@
 {
-    "workbench.colorTheme": "Bearded Theme Arc Blueberry",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "editor.fontSize": 13,
+  "telemetry.telemetryLevel": "off",
+  "workbench.productIconTheme": "bootstrap-product-icons",
+  "workbench.startupEditor": "none",
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules/*"],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.schemas": {
+    "file:///Users/pedrolimafaria/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": false,
+  "atlascode.jira.enabled": false,
+  "atlascode.bitbucket.statusbar.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Andromeda Bordered",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.diagnosticLevel": "Hint",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlayHints.padding": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Javascript && Typescript
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "better-comments.multilineComments": true,
+
+  // Discord Presence
+  "discord.detailsDebugging": "🐛 {file_name} | {file_size}",
+  "discord.detailsEditing": "📝 Coding | {file_size}",
+  "discord.detailsIdling": "💤 | Idling",
+  "discord.largeImage": "{Lang} File",
+  "discord.largeImageIdling": "💤 | Idle",
+  "discord.lowerDetailsDebugging": "📂 {workspace}",
+  "discord.lowerDetailsEditing": "📂 {workspace}",
+  "discord.lowerDetailsIdling": "{empty}",
+  "discord.lowerDetailsNoWorkspaceFound": "❌ No Workspace",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  }
 }
